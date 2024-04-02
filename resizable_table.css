@@ -8,7 +8,7 @@ table.resizable th, table.resizable td {
   text-align: center;
   position: relative;
 }
-table.resizable th.resizable::before {
+table.resizable th.rs-column::before {
   content: "";
   position: absolute;
   top: 0;
