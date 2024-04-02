@@ -14,7 +14,7 @@ table.resizable th.resizable::before {
   top: 0;
   right: -5px;
   bottom: 0;
-  width: 10px;
+  width: 8px;
   cursor: col-resize;
   background-color: #eee;
 }
