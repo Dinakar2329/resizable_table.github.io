@@ -1,4 +1,4 @@
- const resizableTable = document.querySelector('.resizable');
+ const resizableTable = document.querySelectorAll('.resizable');
   const resizableColumns = resizableTable.querySelectorAll('th');
   let startX;
   let startWidth;
