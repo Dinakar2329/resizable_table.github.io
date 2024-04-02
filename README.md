@@ -19,7 +19,7 @@ The Resizable Table CDN provides a simple and efficient solution for creating re
 Include the resizable_table.css file in the `<head>` section of your HTML file to apply the necessary styles:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Dinakar2329/resizable_table.github.io/resizable_table.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Dinakar2329/resizable_table.github.io/resizable_table.css?version=0">
 ```
 
 ### 2. Create HTML Table
@@ -30,9 +30,9 @@ Create the HTML table structure in the `<body>` section of your HTML file. Add t
 <table class="resizable">
     <thead>
         <tr>
-            <th class="resizable">Column 1</th>
-            <th class="resizable">Column 2</th>
-            <th class="resizable">Column 3</th>
+            <th class="rs-column">Column 1</th>
+            <th class="rs-column">Column 2</th>
+            <th class="rs-column">Column 3</th>
             <!-- Add more columns as needed -->
         </tr>
     </thead>
@@ -60,7 +60,7 @@ Save your HTML file and open it in a web browser to test the resizable table fun
 
 ## Note
 
-For avoiding conflicts with other `::before` or `::after` effects in the table, the `resizable` class has been added to multiple columns.
+For avoiding conflicts with other `::before` or `::after` effects in the table, the `rs-column` class has been added to multiple columns.
 
 ## Example
 
